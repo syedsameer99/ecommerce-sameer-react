@@ -1,7 +1,5 @@
 import React from "react";
-import logo2 from "../../icons/navbar/logo2.png";
-import rightArrow from "../../icons/navbar/right-arrow.svg";
-import shirt from "../../icons/navbar/shirt.svg";
+import rightArrow from "../../assets/icons/navbar/right-arrow.svg";
 import propTypes from "prop-types";
 
 const SideNavButton = ({ name, icon }) => {

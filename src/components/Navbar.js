@@ -1,5 +1,5 @@
 import React from "react";
-import logoIcon from "../icons/navbar/logoo.svg";
+import logoIcon from "../assets/icons/navbar/logo.svg";
 
 const Navbar = () => {
   return (
