@@ -1,10 +1,12 @@
 import Navbar from "./components/Navbar";
-import './App.css';
+import SideNav from "./components/SideNav";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Navbar />
+      <SideNav />
     </div>
   );
 }
