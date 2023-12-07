@@ -1,13 +1,17 @@
 import Navbar from "./components/Navbar";
 import SideNav from "./components/SideNav";
 import "./App.css";
+import Layout from "./components/Layout";
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
-      <SideNav />
-    </div>
+      <div className="flex">
+        <SideNav />
+        <Layout />
+      </div>
+    </>
   );
 }
 
